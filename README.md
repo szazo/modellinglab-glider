@@ -8,8 +8,8 @@ Based on GPS recordings of thermalling storks during migration (1), thermal updr
 
 The goal of the project to extract as much meaningful information and behavioral insight as possible from the resulting dataset.
 
-![[glider.png]]
-3D animation of an episode of the simulation: The AI agent (blue) approaches the thermal where storks thermalling in a group (based on recorded GPS coordinates). The color coding of the thermal represents the vertical air velocity field.
+![Figure1](figure1.png)
+*Figure 1: 3D animation of an episode of the simulation: The AI agent (blue) approaches the thermal where storks thermalling in a group (based on recorded GPS coordinates). The color coding of the thermal represents the vertical air velocity field.*
 ## Dataset
 The dataset consists recordings of simulation in multiple thermals, with multiple episodes per thermal. Each episode includes:
 - Position and orientation (in inertial frame), and linear velocity for both the AI agent and the birds.
