@@ -12,8 +12,8 @@ The goal of the project to extract as much meaningful information and behavioral
 *Figure 1: 3D animation of an episode of the simulation: The AI agent (blue) approaches the thermal where storks thermalling in a group (based on recorded GPS coordinates). The color coding of the thermal represents the vertical air velocity field.*
 ## Dataset
 The dataset consists recordings of simulation in multiple thermals, with multiple episodes per thermal. Each episode includes:
-- Position and orientation (in inertial frame), and linear velocity for both the AI agent and the birds.
-- Atmospheric Data: The velocity of the surrounding air velocity field at the coordinates of the birds / agent.
+- Position and orientation (in inertial frame), and linear velocity for both the AI agent and the birds
+- Atmospheric Data: The velocity of the surrounding air velocity field at the coordinates of the birds / agent
 - Additional instantaneous data
 - Other metadata (e.g. bird's name, wing loading)
 
@@ -21,7 +21,7 @@ The dataset consists recordings of simulation in multiple thermals, with multipl
 
 ### 1. Understand the data
 
-Understand the different dimensions:
+Overview of the data dimensions:
 * Thermal: The specific reconstructed updraft instance
 * Episode: Individual simulation rollout with distinct random initial conditions
 * Agent: The specific bird GPS recording or AI agent
