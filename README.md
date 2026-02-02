@@ -22,11 +22,11 @@ The dataset consists recordings of simulation in multiple thermals, with multipl
 ### 1. Understand the data
 
 Understand the different dimensions:
-      * Thermal: The specific reconstructed updraft instance
-      * Episode: Individual simulation rollout with distinct random initial conditions
-      * Agent: The specific bird GPS recording or AI agent
-      * Time: Discrete simulation time with fixed time step size
-      * The initial distance of the AI agent from the thermal core
+* Thermal: The specific reconstructed updraft instance
+* Episode: Individual simulation rollout with distinct random initial conditions
+* Agent: The specific bird GPS recording or AI agent
+* Time: Discrete simulation time with fixed time step size
+* The initial distance of the AI agent from the thermal core
 ### 2. Load the dataset
 
 Recommended library: **Xarray** for handle labelled multi-dimensional data: https://docs.xarray.dev/en/stable/getting-started-guide/why-xarray.html (but any alternative is acceptable)
