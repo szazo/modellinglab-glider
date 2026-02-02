@@ -29,7 +29,7 @@ Understand the different dimensions:
 * The initial distance of the AI agent from the thermal core
 ### 2. Load the dataset
 
-Recommended library: **Xarray** for handle labelled multi-dimensional data: https://docs.xarray.dev/en/stable/getting-started-guide/why-xarray.html (but any alternative is acceptable)
+Recommended library: **Xarray** for handle labelled multi-dimensional data: https://docs.xarray.dev/en/stable/getting-started-guide/why-xarray.html (but any alternative is acceptable).
 
 Plot flight trajectories, encoding vertical velocity data through color coding.
 ### 3. Feature engineering (metrics, trends, phases)
@@ -39,11 +39,13 @@ Compute several **metrics** from the raw time-series data (use windowing or smoo
 	- curvature
 	- angular velocity
 	- climb rate (e.g. for last 10 seconds, last 30 seconds)
+
 Identify **trends** based on the metrics:
 - Examples:
 	- Climbing / descending
 	- Tightening or widening circles
 	- Consistent left or right circling
+
 Detect **phase** changes:
 - Examples:
 	- Gliding (low curvature, sinking)
