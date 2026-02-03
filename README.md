@@ -65,7 +65,8 @@ Detect **phase** changes:
 	- Number of thermal losses and re-acquisitions
 	- How well agent estimates core position when circling
 
-Additional metrics and analyses are encouraged.
+***Note:** These are just ideas; it is not necessary to implement all of them. Also, additional metrics and analyses are encouraged.*
+
 ## Literature
 
 1. Flack, A.; Nagy, M.; Fiedler, W.; Couzin, I. D.; Wikelski, M. From Local Collective Behavior to Global Migratory Patterns in White Storks. _Science_ **2018**, _360_ (6391), 911–914. [https://doi.org/10.1126/science.aap7781](https://doi.org/10.1126/science.aap7781).
